@@ -7,3 +7,11 @@ single one.
 understand. It addresses the developer (by referring to childhood 
 memories), while theoretically doing the same thing. This is what I 
 consider “having the human to coding language transition” in mind.
+
+// Love at first sight
+if (me.getDistanceTo(you.position) < 200) {
+  me.setFeelings({
+    inLove: true,
+  });
+}
+
